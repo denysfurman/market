@@ -1,0 +1,7 @@
+// ----------------->> fonts mixin
+@mixin mx-font($color, $size, $weight){
+	color: $color;
+	font-size: $size;
+	font-weight: $weight;
+	font-family: $main-font;
+}
